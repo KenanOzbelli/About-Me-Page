@@ -4,4 +4,4 @@ description: a page that is about me and some cool programs that I have develope
 
 Link: https://kenanbeast.github.io/About-Me-Page/
 
-[!alt]
+![Alt text](./Assets/screenshot.png)
