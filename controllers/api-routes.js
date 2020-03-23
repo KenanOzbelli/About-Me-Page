@@ -12,7 +12,7 @@ module.exports = function(app){
             name:req.body.name,
             email: req.body.email
         }).then((dbInfo) =>{
-            res.json(dbInfo);
+            res.send(dbInfo);
         });
     });
 }
