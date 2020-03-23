@@ -32,6 +32,10 @@
             transform: scale(1.05);
         }
 
+        .cardBody {
+            border-radius: .5rem;
+        }
+
         .entry h3 {
             position: absolute;
             bottom: 25px;
@@ -44,20 +48,22 @@
 <body style="background-color: #F2F2F2;">
     <div class="row no-gutters shadow-sm" style="background: #658DA6;">
         <div class="col-md-6 text-white text-center">
-            <h1 class="float-md-left ml-md-5 p-4 mb-0 " style="background: #021526;">
-                Kenan Ozbelli
-            </h1>
+            <a href="/" style="text-decoration: none; color: white;">
+                <h1 class="float-md-left ml-md-5 p-4 mb-0 " style="background: #021526;">
+                    Kenan Ozbelli
+                </h1>
+            </a>
         </div>
         <div class="col-md-6 d-flex flex-row justify-content-center align-items-center">
-            <a class="m-3 ml-md-auto text-dark" style="text-decoration: none;" href="index.html">About</a> |
-            <a class="m-3 text-dark" style="text-decoration: none;" href="portfolio.html">Portfolio</a> |
+            <a class="m-3 ml-md-auto text-dark" style="text-decoration: none;" href="/">About</a> |
+            <a class="m-3 text-dark" style="text-decoration: none;" href="/portfolio">Portfolio</a> |
             <a class="m-3 text-dark" style="text-decoration: none;" style="text-decoration: none;"
-                href="contactPage.htm">Contact</a>
+                href="/contactPage">Contact</a>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-9">
-            <div class="card m-5 mb-5">
+            <div class="card m-5 mb-5 cardBody">
                 <div class="card-body text-muted">
                     <h1 style="color:#021526;">Portfolio</h1>
                     <hr>
@@ -65,12 +71,12 @@
                         <div class="col-sm-6">
                             <div class="entry position-relative text-center">
                                 <a href="https://kenanbeast.github.io/projone/">
-                                    <img src="assests/img/project.png" style="width: 100%;" class="img-fluid mb-3"
+                                    <img src="../img/project.png" style="width: 100%;" class="img-fluid mb-3"
                                         alt="Project 1">
                                     <h3 class="p-1 w-100 text-white hvr-grow" style="background:#021526;">Project 1</h3>
                                 </a>
                             </div>
-                            <div class="hvr-grow"> 
+                            <div class="hvr-grow">
                                 <a href="https://github.com/kenanbeast/projone" class="bg-dark p-1 w-100 text-white"
                                     style="text-decoration: none;">Github Repo Link</a>
                             </div>
@@ -78,9 +84,10 @@
                         <div class="col-sm-6">
                             <div class="entry position-relative text-center">
                                 <a href="https://github.com/kenanbeast/Password-Generator">
-                                    <h3 class="p-1 w-100 text-white hvr-grow" style="background:#021526;">JS-Password Generator
+                                    <h3 class="p-1 w-100 text-white hvr-grow" style="background:#021526;">JS-Password
+                                        Generator
                                     </h3>
-                                    <img src="assests/img/Password Gen.png" style="width: 100%;" class="img-fluid mb-3"
+                                    <img src="../img/Password Gen.png" style="width: 100%;" class="img-fluid mb-3"
                                         alt="JS-Password Generator">
                                 </a>
                             </div>
@@ -95,9 +102,10 @@
                         <div class="col-sm-6">
                             <div class="entry position-relative text-center">
                                 <a href="https://kenanbeast.github.io/Weather-App/">
-                                    <img src="assests/img/Weather-app.png" style="width: 100%;" class="img-fluid mb-3"
+                                    <img src="../img/Weather-app.png" style="width: 100%;" class="img-fluid mb-3"
                                         alt="Weather-app">
-                                    <h3 class="p-1 w-100 text-white hvr-grow" style="background:#021526;">Weather App</h3>
+                                    <h3 class="p-1 w-100 text-white hvr-grow" style="background:#021526;">Weather App
+                                    </h3>
                                 </a>
                             </div>
                             <div class="text-center mb-3 hvr-grow">
@@ -108,13 +116,45 @@
                         <div class="col-sm-6">
                             <div class="entry position-relative text-center">
                                 <a href="https://kenanbeast.github.io/5-DayPlanner/">
-                                    <img src="assests/img/5-dayplanner.png" style="width: 100%;" class="img-fluid mb-3"
+                                    <img src="../img/5-dayplanner.png" style="width: 100%;" class="img-fluid mb-3"
                                         alt="Weather-app">
-                                    <h3 class="p-1 w-100 text-white hvr-grow" style="background:#021526;">5-Day Planner</h3>
+                                    <h3 class="p-1 w-100 text-white hvr-grow" style="background:#021526;">5-Day Planner
+                                    </h3>
                                 </a>
                             </div>
                             <div class="text-center mb-3 hvr-grow">
                                 <a href="https://github.com/kenanbeast/5-DayPlanner"
+                                    class="bg-dark p-1 w-100 text-white" style="text-decoration: none;">Github Repo
+                                    Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="entry position-relative text-center">
+                                <a href="https://morning-dusk-12730.herokuapp.com/">
+                                    <img src="../img/flashcard_quiz.png" style="width: 100%;" class="img-fluid mb-3"
+                                        alt="Weather-app">
+                                    <h3 class="p-1 w-100 text-white hvr-grow" style="background:#021526;">FlashCard Quiz
+                                    </h3>
+                                </a>
+                            </div>
+                            <div class="text-center mb-3 hvr-grow">
+                                <a href="https://github.com/kenanbeast/flash-card-quiz" class="bg-dark p-1 w-100 text-white"
+                                    style="text-decoration: none;">Github Repo Link</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="entry position-relative text-center">
+                                <a href="https://still-hamlet-60653.herokuapp.com/">
+                                    <img src="../img/screenshot2.png" style="width: 100%;" class="img-fluid mb-3"
+                                        alt="Weather-app">
+                                    <h3 class="p-1 w-100 text-white hvr-grow" style="background:#021526;">Burger
+                                    </h3>
+                                </a>
+                            </div>
+                            <div class="text-center mb-3 hvr-grow">
+                                <a href="https://github.com/kenanbeast/Burger"
                                     class="bg-dark p-1 w-100 text-white" style="text-decoration: none;">Github Repo
                                     Link</a>
                             </div>
@@ -145,6 +185,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+     
 </body>
 
 </html>
